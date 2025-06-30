@@ -1,9 +1,9 @@
-package main.java.p2p.utils ;
+package p2p.utils;
 
 import java.util.Random;
 
 public class UploadUtils {
-    public static generateCode(){
+    public static int generateCode(){
         int DYNAMIC_STARTING_PORT=49152;
         int DYNAMIC_ENDING_PORT=85535;
 

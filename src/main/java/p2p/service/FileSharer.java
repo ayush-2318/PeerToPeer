@@ -1,7 +1,6 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IO;
-import java.io.OutputStream;
+package p2p.service;
+
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.HashMap;
