@@ -11,7 +11,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-public class UploadHandler implements HttpHandler {
+public class  UploadHandler implements HttpHandler {
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {

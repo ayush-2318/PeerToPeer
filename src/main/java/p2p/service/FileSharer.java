@@ -4,8 +4,9 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.HashMap;
+//import main.java.p2p.utils.UploadUtils;
+import p2p.utils.UploadUtils;
 
-import main.java.p2p.utils.UploadUtils;
 
 public class FileSharer {
     private HashMap<Integer,String> avialableFiles;
